@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: aquamarine; */
+    background-image: linear-gradient(to bottom, #143669, #005e8c, #00838b, #00a36d, #98bb49);
+    width: 100%;
+    height: 100vh;
+    /* display: flex;
+    justify-content: center;  */
+    text-align: center;
+}
+
+h1{
+    margin-top: 13px;
+    color: #69e002;
+    font-weight: bolder;
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #98bb49; */
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+    /* background-color: #ff0051; */
+}
+
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-size: 6vmin;
+    color: #ff0051;
+    background-color: #ffffc7;
+}
+
+.btn{
+    height: 35px;
+    width: 65px;
+    font-size: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+    background-color: #b5e31c;
+    color: #057ca4;
+    font-weight: bold;
+}
+
+.bmsg{
+    /* height: 35px;
+    width: 85px; */
+    height: 2rem;
+    padding: 0.5rem;
+
+    font-size: 15px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border: none;
+    background-color: #b5e31c;
+    color: #057ca4;
+    /* font-weight: bold; */
+    margin-top: 2px;
+}
+
+.pmsg{
+    color: #ff0051;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.w-msg{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hide{
+    display: none;
+}
+
+.x-player {
+    color: red; /* Choose your color for X */
+}
+
+.o-player {
+    color: blue; /* Choose your color for O */
+}
+
+
+/* .game{
+    width: 200px;
+    height: 400px;
+}
+.box{
+    width: 50px;
+    height: 50px;
+} */
